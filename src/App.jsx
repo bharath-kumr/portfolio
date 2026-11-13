@@ -533,9 +533,6 @@ export default function App() {
     <MotionConfig reducedMotion="user">
       <Aurora />
       <ScrollProgress />
-      <a href="#top" className="corner-logo" onClick={(e) => goTo(e, "top")} aria-label="Back to top">
-        <img src="/portfolio-icon.png" alt="Portfolio icon" />
-      </a>
       <Nav />
       <main className="app">
         <Hero />
